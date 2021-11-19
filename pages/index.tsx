@@ -8,6 +8,7 @@ export default function Home() {
       </div>
       <div className="summary">
         <p>
+          { /* eslint-disable-next-line react/no-unescaped-entities */ }
           Please find below the useful resources we've used in a topic you're
           interested with.
         </p>
