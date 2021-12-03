@@ -1,0 +1,17 @@
+.summary #course{
+    background-color: pink;
+}
+
+.summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content {
+    padding: 10px;
+}
+
+.course-name {
+    padding: 10px;
+}
