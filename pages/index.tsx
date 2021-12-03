@@ -6,11 +6,11 @@ export default function Home() {
     <div className="container">
       <div className="header">
         <h1>Resources for Programming with Nes Community</h1>
-        <h5>We've been building this site in the Live Room of Vibely. You can access the Live Room from&nbsp;
+        <p>We've been building this site in the Live Room of Vibely. You can access the Live Room from&nbsp;
           <a href="https://app.vibely.io/programmingwithnes/circle/3db67f2f-cd59-4bde-834c-2ecfd6e824f2">here</a>.
-        </h5>
+        </p>
       </div>
-      <div className="summary">
+      <div className="text">
         <p>
           Please find below the useful resources we've used in a topic you're
           interested with.
