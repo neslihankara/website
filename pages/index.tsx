@@ -1,12 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import Topic from "../components/topic-card"
-import Head from 'next/head'
 import Script from 'next/script'
 
 export default function Home() {
   return (
     <div className="container">
-      <Head>
         <Script
           dangerouslySetInnerHTML={{
             __html: `(function(h,o,t,j,a,r){
@@ -19,7 +17,6 @@ export default function Home() {
                     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`,
           }}
         />
-      </Head>
       <div className="header">
         <h1>Resources for Programming with Nes Community</h1>
         <p>We've been building this site in the Live Room of Vibely. You can access the Live Room from&nbsp;
